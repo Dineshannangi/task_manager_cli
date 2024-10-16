@@ -1,0 +1,18 @@
+ Task Manager CLI Application
+
+ Description:
+                        This is a simple command-line interface (CLI) application that allows users to manage tasks. Users can add tasks, view all tasks, delete tasks by their ID, and mark tasks as completed. The tasks are saved in a `tasks.json` file so that they persist between sessions.
+
+ Features:
+       Add Task: Add a new task to the task list with a unique ID.
+  View Tasks: Display all tasks along with their status            (pending/completed).
+     Delete Task: Remove a task by its ID.
+    Mark Task as Complete : Mark a specific task as completed using its    ID.
+  Persistent Storage : Tasks are saved to a JSON file (`tasks.json`) and loaded when the application starts.
+
+How to Run the Application:
+1. Clone or download this repository to your local machine.
+2. Make sure Python is installed on your system (you can download it [here](https://www.python.org/downloads/)).
+3. Open your terminal and navigate to the project directory (`task_manager`).
+
+cd task_manager
